@@ -69,14 +69,7 @@ CREATE TABLE TRADUCAO (
 DROP TABLE IF EXISTS TRADUCAO_REF;
 CREATE TABLE TRADUCAO_REF (
   id int(11) NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (id),
-  KEY id (id),
-  KEY id_2 (id),
-  KEY id_3 (id),
-  KEY id_4 (id),
-  KEY id_5 (id),
-  KEY id_6 (id),
-  KEY id_7 (id)
+  PRIMARY KEY (id)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 ```
 
